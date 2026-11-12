@@ -47,13 +47,22 @@
       }
     }
   </style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17083487425"></script>
+<!-- Google Tag Manager (GTM-PP6T87K4) -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PP6T87K4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js): Google Ads (AW-17083487425) + Google Analytics 4 (G-EKSGY5J7H7) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKSGY5J7H7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
+  gtag('config', 'G-EKSGY5J7H7');
   gtag('config', 'AW-17083487425');
 
   // Event snippet for Клік по контактах на сайті conversion page
@@ -84,6 +93,9 @@
       ) {
         gtag('event', 'conversion', {
           'send_to': 'AW-17083487425/hLl8CMnkyLYdEMGphdI_'
+        });
+        gtag('event', 'contact_click', {
+          'link_url': href
         });
       }
     });
